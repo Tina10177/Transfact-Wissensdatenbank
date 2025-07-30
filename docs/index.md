@@ -24,6 +24,7 @@ Jeder Fertigungsbereich (FB) enthält mehrere Ressourcen (Arbeitsplätze). Jede 
 ### ▶ 1. Anzeige der Abarbeitungsliste eines Fertigungsbereichs
 
 Durch Klicken auf den **Namen eines Fertigungsbereichs** (z. B. `TF15-01 Montage`) 
+
 ![PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs](./images/PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs.png)
 
 gelangt man zur **Abarbeitungsliste** dieses Bereichs:
