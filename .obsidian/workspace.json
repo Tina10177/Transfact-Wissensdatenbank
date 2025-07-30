@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/pps/ak-vorlagen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "ak-vorlagen"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/pps/ak-vorlagen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "ak-vorlagen 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/pps/ak-vorlagen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "ak-vorlagen 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/pps/ak-vorlagen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "ak-vorlagen 的大纲"
             }
           }
         ]
@@ -170,6 +170,23 @@
   },
   "active": "6459bb8f379f32c0",
   "lastOpenFiles": [
+    "docs/pps/ak-freigaben-historie.md",
+    "docs/crm/vertriebsplanung.md",
+    "docs/crm/verkaufsbeleg.md",
+    "docs/crm/statistik.md",
+    "docs/crm/raumuebersicht.md",
+    "docs/crm/objekte.md",
+    "docs/crm/liefertermine.md",
+    "docs/crm/kunden.md",
+    "docs/crm/faellige-vertraege.md",
+    "docs/crm/ereignisse.md",
+    "docs/crm/eigene-beleguebersicht.md",
+    "docs/crm/crm-artikelpreise.md",
+    "docs/crm/beleguebersicht.md",
+    "docs/crm/beleg-schnellanlage.md",
+    "docs/crm/anrufliste.md",
+    "docs/pps/fertigungsuebersicht.md",
+    "docs/index.md",
     "docs/pps/simulation-fa-kapazitaet.md",
     "docs/pps/rueckmeldungen.md",
     "docs/pps/ressourcenstatus.md",
@@ -179,24 +196,7 @@
     "docs/pps/nicht-akt-ak-revisionen.md",
     "docs/pps/nettobedarf.md",
     "docs/pps/losuebersicht.md",
-    "docs/pps/kapazitaetsplanung.md",
-    "docs/pps/fertigungsuebersicht.md",
-    "docs/pps/eigene-rueckmeldungen.md",
-    "docs/pps/durchsatzbericht.md",
-    "docs/pps/checklistensuche.md",
-    "docs/pps/av-mrp.md",
-    "docs/pps/artikel.md",
-    "docs/pps/artikel-cockpit.md",
-    "docs/pps/ak-vorlagen.md",
-    "docs/pps/ak-freigaben-historie.md",
     "docs/pps",
-    "docs/crm/vertriebsplanung.md",
-    "docs/crm/verkaufsbeleg.md",
-    "docs/crm/statistik.md",
-    "docs/crm/ereignisse.md",
-    "docs/crm/liefertermine.md",
-    "docs/crm/objekte.md",
-    "docs/crm/raumuebersicht.md",
     "docs/crm",
     "docs/srm",
     "srm",

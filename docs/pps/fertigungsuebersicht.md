@@ -1,3 +1,4 @@
+# Fertigungsübersicht
 ### 📊 Modulübersicht
 
 Die **Fertigungsübersicht** im Transfact PPS-Modul bietet eine zentrale Echtzeitansicht aller Fertigungsbereiche (Produktionsbereiche) und deren Ressourcen (Arbeitsplätze). Sie dient der Visualisierung des Fertigungsfortschritts, der Aufgabenverteilung sowie der Ressourcenverfügbarkeit und Priorisierung.
