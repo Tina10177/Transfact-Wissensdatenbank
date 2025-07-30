@@ -1,126 +1,95 @@
-### 📊 Modulübersicht
+# Transfact Wissensdatenbank
 
-Die **Fertigungsübersicht** im Transfact PPS-Modul bietet eine zentrale Echtzeitansicht aller Fertigungsbereiche (Produktionsbereiche) und deren Ressourcen (Arbeitsplätze). Sie dient der Visualisierung des Fertigungsfortschritts, der Aufgabenverteilung sowie der Ressourcenverfügbarkeit und Priorisierung.
-
-Zugriffspfad: **PPS > Fertigungsübersicht**
-
-## 🔍 Feldbeschreibung
-
-Jeder Fertigungsbereich (FB) enthält mehrere Ressourcen (Arbeitsplätze). Jede Ressource zeigt folgendes Format: L: x / P: y / z h
-
-|Feld|Bedeutung|
-|---|---|
-|`L`|Anzahl der aktuell auf dieser Ressource **zu bearbeitenden Fertigungslosen (Los)**|
-|`P`|Anzahl der **priorisierten Lose** unter den offenen Losen|
-|`h`|Geplante Gesamtbearbeitungszeit dieser Lose auf der Ressource (in Stunden)|
-
-**Beispiel:** L: 4 / P: 2 / 1h → 4 offene Lose auf dieser Ressource, davon 2 mit hoher Priorität, geplante Bearbeitungszeit 1 Stunde.
+Willkommen in der interaktiven Wissensdatenbank für das Transfact ERP-System!  
+Bitte wähle ein Modul aus dem Inhaltsverzeichnis:
 
 ---
 
-## 🚪 Navigationspfade
+## 📂 CRM (Customer Relationship Management)
 
-
-### ▶ 1. Anzeige der Abarbeitungsliste eines Fertigungsbereichs
-
-Durch Klicken auf den **Namen eines Fertigungsbereichs** (z. B. `TF15-01 Montage`) 
-
-![PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs](./images/PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs.png)
-gelangt man zur **Abarbeitungsliste** dieses Bereichs:
-![[PPS_Fertigungsübersicht_Abarbeitungsliste des FBs..png]]
-- Anzeige aller Los-Aufträge in diesem Bereich;
-    
-- Filtermöglichkeiten nach Losnummer, FA-Nummer, Artikel, Projekt usw.;
-    
-- Tabellarische Darstellung aller Auftragsdaten wie Schritt, Status, Anweisung etc.
-    
-
-### ▶ 2. Anzeige der Abarbeitungsliste einer Ressource
-
-Durch Klicken auf eine bestimmte **Ressourcennummer** (z. B. `1WP1`) 
-![[PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste einer Ressource.png]]gelangt man zur **Abarbeitungsliste dieser Ressourcen (Arbeitsplatz)**;
-![[PPS_Fertigungsübersicht_Abarbeitungsliste der Ressource.png]]
-- Anzeige aller Lose, die dieser Ressource zugeordnet sind.
-
-### ▶ 3. Detailansicht eines einzelnen Loses
-
-Ist ein Los aktuell auf einer Ressource angemeldet (Bearbeitung aktiv), wird es in der Liste **fett markiert**.
-![[PPS_Fertigungsübersicht_an Ressource angemeldete Los.png]]Durch Klicken auf die **Losnummer** (z. B. 460341) öffnet sich die:
-![[PPS_Fertigungsübersicht_Losdetailansicht.png]]
-- **Detailansicht des Fertigungsloses** mit:
-    
-    - Grunddaten (Artikel, Auftrag, Kunde, Projekt);
-        
-    - Bearbeitungsstatus, Verzugstage;
-        
-    - Arbeitsschritte, Ressourcenzuweisung, Qualitätsstatus usw.
-        
+- [Kunden](crm/kunden.md)
+- [Ereignisse](crm/ereignisse.md)
+- [Verkaufsbeleg anlegen](crm/verkaufsbeleg.md)
+- [Belegübersicht](crm/beleguebersicht.md)
+- [Eigene Belegübersicht](crm/eigene-beleguebersicht.md)
+- [Beleg Schnellanlage](crm/beleg-schnellanlage.md)
+- [Liefertermine](crm/liefertermine.md)
+- [Fällige Verträge](crm/faellige-vertraege.md)
+- [Objekte](crm/objekte.md)
+- [Raumübersicht](crm/raumuebersicht.md)
+- [Statistik](crm/statistik.md)
+- [Vertriebsplanung](crm/vertriebsplanung.md)
+- [Anrufliste](crm/anrufliste.md)
+- [CRM-Artikelpreise](crm/crm-artikelpreise.md)
 
 ---
 
-## 🛠 Verwaltung des Ressourcenstatus
+## 📂 SRM (Supplier Relationship Management)
 
-Durch Klicken auf das **Zahnrad-Symbol** neben einer Ressource öffnet sich die:
-![[PPS_Fertigungsübersicht_Ressourcen Status einzustellen.png]]
- **Ressourcen-Status-Seite**;
-![[PPS_Fertigungsübersicht_Ressource Status Pop Fenster.png]]
-- Möglichkeit, den Status zu ändern (z. B. `Reparatur`);
-    
-- Eingabe von voraussichtlicher Dauer und Bemerkung;
-    
-- Nach Klick auf **Speichern** wird der neue Status (z. B. rot markiert) in der Fertigungsübersicht angezeigt.
-
-![[PPS_Fertigungsübersicht_Ressource Status geändert.png]]
-## 🛠️ Layoutanpassung der Fertigungsübersicht
-
-### Zugang: Button **Fertigungsübersicht verändern** (oben rechts)
-![[PPS_Fertigungsübersicht_Fertigungsübersicht verändern.png]]
-Im Bearbeitungsmodus:
-![[PPS_Fertigungsübersicht_Fertigungsübersicht Einstellungen.png]]
-- Auswahl der Spaltenanzahl: `1-spaltig` bis `8-spaltig`
-    Spaltenanzahl: Bildschirmabhängige Empfehlung
-    **3–4 Spalten** für schmale Bildschirme (z. B. Laptops)
-    **6–8 Spalten** für breite Bildschirme (z. B. große Monitore)
-    
-- Jeder FB zeigt 3 Symbole:
-    
-    - ⬆️ nach oben verschieben
-        
-    - ⬇️ nach unten verschieben
-        
-    - ☑️ sichtbar / unsichtbar schalten
-        
-
-### Sichtbarkeit
-
-- Wird der Sichtbarkeits-Haken deaktiviert, verschwindet der FB aus der Ansicht
-    
-- Reaktivierung durch erneutes Anhaken
-
-### Sortierung
-
-- Per ⬆️ / ⬇️ Symbole die Reihenfolge der Bereiche anpassen
-
-![[PPS_Fertigungsübersicht_Fertigungsübersicht anzeigen.png]]
-- **Wichtig**: Anschließend **Fertigungsübersicht anzeigen** klicken, um neue Anordnung zu übernehmen
-## 🔄 Zusammenfassung der Schritte
-
-```
-Fertigungsübersicht
-│
-├─▶ Fertigungsbereich klicken → Abarbeitungsliste des FBs
-│
-├─▶ Ressource klicken → Abarbeitungsliste der Ressource
-│
-├─▶ Los klicken → Losdetailansicht
-│
-├─▶ Zahnrad klicken → Ressourcenstatus setzen (z. B. Reparatur)
-│
-└─▶ "Fertigungsübersicht verändern" klicken
-    ├─▶ Spaltenanzahl, Reihenfolge und Sichtbarkeit anpassen
-    └─▶ "Fertigungsübersicht anzeigen" klicken zur Übernahme
-```
+- [Lieferanten](srm/lieferanten.md)
+- [Ereignisse](srm/ereignisse.md)
+- [EK-MRP](srm/ekmrp.md)
+- [Einkaufsbeleg anlegen](srm/einkaufsbeleg.md)
+- [Beleg Schnellanlage](srm/beleg-schnellanlage.md)
+- [Belegübersicht](srm/beleguebersicht.md)
+- [Eigene Belegübersicht](srm/eigene-beleguebersicht.md)
+- [Fällige Verträge](srm/faellige-vertraege.md)
+- [Statistik](srm/statistik.md)
+- [Lieferantenbewertung](srm/lieferantenbewertung.md)
+- [SRM-Artikelpreise](srm/srm-artikelpreise.md)
 
 ---
 
-Diese Anleitung unterstützt Sie bei der effektiven Nutzung der Fertigungsübersicht zur Produktionsplanung, Ressourcensteuerung und Auftragsverfolgung im Transfact PPS-System.
+## 📂 PPS (Produktionsplanung und -steuerung)
+
+- [Artikel](pps/artikel.md)
+- [Fertigungsübersicht](pps/fertigungsuebersicht.md)
+- [Losübersicht](pps/losuebersicht.md)
+- [Eigene Rückmeldungen](pps/eigene-rueckmeldungen.md)
+- [Checklistensuche](pps/checklistensuche.md)
+- [Artikel-Cockpit](pps/artikel-cockpit.md)
+- [AK Vorlagen](pps/ak-vorlagen.md)
+- [AK-Freigaben-Historie](pps/ak-freigaben-historie.md)
+- [Property AK-Vorlagen](pps/property-ak-vorlagen.md)
+- [nicht akt. AK-Revisionen](pps/nicht-akt-ak-revisionen.md)
+- [Prüfplan-Vorlagen](pps/pruefplan-vorlagen.md)
+- [Offene Freigabeobjekte](pps/offene-freigabeobjekte.md)
+- [Kapazitätsplanung](pps/kapazitaetsplanung.md)
+- [Simulation FA-Kapazität](pps/simulation-fa-kapazitaet.md)
+- [Rückmeldungen](pps/rueckmeldungen.md)
+- [Ressourcenstatus](pps/ressourcenstatus.md)
+- [Nettobedarf](pps/nettobedarf.md)
+- [AV-MRP](pps/av-mrp.md)
+- [Durchsatzbericht](pps/durchsatzbericht.md)
+
+---
+
+🚧 _Diese Dokumentation wird kontinuierlich erweitert. Seiten, die noch nicht verlinkt oder erstellt sind, befinden sich derzeit in Bearbeitung._
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
