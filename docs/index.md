@@ -26,7 +26,7 @@ Jeder Fertigungsbereich (FB) enthält mehrere Ressourcen (Arbeitsplätze). Jede 
 Durch Klicken auf den **Namen eines Fertigungsbereichs** (z. B. `TF15-01 Montage`) 
 ![PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs](./images/PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs.png)
 
-![[PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs.png]]gelangt man zur **Abarbeitungsliste** dieses Bereichs:
+gelangt man zur **Abarbeitungsliste** dieses Bereichs:
 ![[PPS_Fertigungsübersicht_Abarbeitungsliste des FBs..png]]
 - Anzeige aller Los-Aufträge in diesem Bereich;
     
