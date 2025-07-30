@@ -1,4 +1,3 @@
-# Transfact Wissensdatenbank
 
 Willkommen in der interaktiven Wissensdatenbank für das Transfact ERP-System!  
 Bitte wähle ein Modul aus dem Inhaltsverzeichnis:

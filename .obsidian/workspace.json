@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "srm/statistik.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "statistik"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "srm/statistik.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "statistik 的反向链接列表"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "srm/statistik.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "statistik 的出链列表"
+              "title": "index 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "srm/statistik.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "statistik 的大纲"
+              "title": "index 的大纲"
             }
           }
         ]
@@ -170,41 +170,41 @@
   },
   "active": "6459bb8f379f32c0",
   "lastOpenFiles": [
-    "srm/srm-artikelpreise.md",
-    "srm/lieferantenbewertung.md",
-    "srm/lieferanten.md",
-    "srm/faellige-vertraege.md",
-    "srm/ereignisse.md",
-    "srm/ekmrp.md",
-    "srm/einkaufsbeleg.md",
-    "srm/eigene-beleguebersicht.md",
-    "srm/beleguebersicht.md",
-    "srm/beleg-schnellanlage.md",
-    "pps/simulation-fa-kapazitaet.md",
-    "pps/rueckmeldungen.md",
-    "pps/ressourcenstatus.md",
-    "pps/pruefplan-vorlagen.md",
-    "pps/property-ak-vorlagen.md",
-    "pps/offene-freigabeobjekte.md",
-    "pps/nicht-akt-ak-revisionen.md",
-    "pps/nettobedarf.md",
-    "pps/losuebersicht.md",
-    "pps/kapazitaetsplanung.md",
-    "pps/fertigungsuebersicht.md",
-    "pps/eigene-rueckmeldungen.md",
-    "pps/durchsatzbericht.md",
-    "pps/checklistensuche.md",
-    "pps/av-mrp.md",
-    "pps/artikel-cockpit.md",
+    "docs/pps/simulation-fa-kapazitaet.md",
+    "docs/pps/rueckmeldungen.md",
+    "docs/pps/ressourcenstatus.md",
+    "docs/pps/pruefplan-vorlagen.md",
+    "docs/pps/property-ak-vorlagen.md",
+    "docs/pps/offene-freigabeobjekte.md",
+    "docs/pps/nicht-akt-ak-revisionen.md",
+    "docs/pps/nettobedarf.md",
+    "docs/pps/losuebersicht.md",
+    "docs/pps/kapazitaetsplanung.md",
+    "docs/pps/fertigungsuebersicht.md",
+    "docs/pps/eigene-rueckmeldungen.md",
+    "docs/pps/durchsatzbericht.md",
+    "docs/pps/checklistensuche.md",
+    "docs/pps/av-mrp.md",
+    "docs/pps/artikel.md",
+    "docs/pps/artikel-cockpit.md",
+    "docs/pps/ak-vorlagen.md",
+    "docs/pps/ak-freigaben-historie.md",
+    "docs/pps",
+    "docs/crm/vertriebsplanung.md",
+    "docs/crm/verkaufsbeleg.md",
+    "docs/crm/statistik.md",
+    "docs/crm/ereignisse.md",
+    "docs/crm/liefertermine.md",
+    "docs/crm/objekte.md",
+    "docs/crm/raumuebersicht.md",
+    "docs/crm",
+    "docs/srm",
     "srm",
     "crm",
     "pps",
     "docs/FIBU",
     "docs/PZE",
     "docs/DMS",
-    "docs/LAGER",
-    "docs/PPS",
-    "docs/SRM",
-    "docs/CRM"
+    "docs/LAGER"
   ]
 }
